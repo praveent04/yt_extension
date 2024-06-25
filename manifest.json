@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Auto Play/Pause",
+  "version": "1.0",
+  "description": "Automatically play or pause YouTube videos when switching tabs.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon16.png",
+      "128": "icon16.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon16.png",
+    "128": "icon16.png"
+  }
+}
