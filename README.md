@@ -20,9 +20,7 @@ The **YouTube Auto Play/Pause** Chrome extension automatically plays or pauses Y
 
 ### From the Chrome Web Store
 
-1. Visit the [YouTube Auto Play/Pause extension page on the Chrome Web Store](https://chrome.google.com/webstore/detail/your-extension-id).
-2. Click on the "Add to Chrome" button.
-3. Confirm the installation by clicking "Add extension" in the pop-up dialog.
+will publish it soon in web store
 
 ### From GitHub
 
